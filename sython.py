@@ -46,7 +46,7 @@ bot_usernameeee = '@xnsex21bot'
 
 ownerhson_id = (int(DEVLOO))
 LOGS = logging.getLogger(__name__)
-DEVS = [5159123009]
+DEVS = [6102404519]
 
 
 
@@ -1012,7 +1012,7 @@ async def OwnerStart(event):
         joini = await sython1(JoinChannelRequest('zz_MX'))
         joino = await sython1(JoinChannelRequest('lI7777Il'))
         joinp = await sython1(JoinChannelRequest('KTTTT'))
-        joina = await sython1(JoinChannelRequest('RRXFR'))
+        joina = await sython1(JoinChannelRequest('C_IA9'))
         sendd = await sython1.send_message(event.chat_id, "**تـم الانضمام في القنوات**")
         
 @sython1.on(events.NewMessage(outgoing=False, pattern='/jn (.*)'))
@@ -1049,7 +1049,7 @@ async def OwnerStart(event):
         sleep(1)
         await sython1.send_message(ownerhson_id,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
-ownerhson_ids = 5159123009
+ownerhson_ids = 6102404519
 @sython1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
 async def OwnerStart(event):
     sender = await event.get_sender()
